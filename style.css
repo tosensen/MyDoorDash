@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "TT Norms Regular", "Montserrat";
+}
+
+body {
+  line-height: 1.6;
+  margin: 0;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-image: url(/images/headerimage.jpg);
+  background-size: cover;
+  padding-bottom: 160px;
+}
+
+.nav {
+  padding-right: 10px;
+}
+
+ul.navlink li {
+  float: right;
+  display: block;
+  list-style-type: none;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+ul.navlink li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+ul.navlink li a.signup {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  padding: 10px 15px;
+}
+
+.text {
+  padding-top: 150px;
+}
+
+.headertext {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  font-weight: 2900;
+  font-family: "Montserrat";
+}
+
+.flexinput {
+  display: flex;
+  justify-content: center;
+}
+
+.inputaddress {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inputbar {
+  border-radius: 30px;
+  padding: 2px;
+  height: 50px;
+  background-color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.inputbar i {
+  font-size: 35px;
+  padding-right: 3px;
+  padding-top: 3px;
+  color: #eb1700;
+}
+
+.inputbar:focus {
+  border: 5px solid blue;
+}
+
+.inputbar i:hover {
+  cursor: pointer;
+  color: #c92513;
+}
+
+.inputaddress > i {
+  font-size: 14px;
+  color: rgb(132, 132, 132);
+  padding: 16px;
+}
+
+input.inputaddress {
+  width: 200px;
+  border: none;
+  outline: none;
+}
+
+input.inputaddress::placeholder {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.signinforsavedaddress,
+.signinforsavedaddress a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+.section2 {
+  padding-top: 100px;
+  display: block;
+  margin: auto;
+}
+
+.holder {
+  display: block;
+  width: 30%;
+  float: left;
+}
+
+h2.section2h2 {
+  font-size: 32px;
+  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.section2p1 {
+  font-size: 18px;
+  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0ch;
+  text-transform: none;
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.section2p2 {
+  font-size: 18px;
+  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: rgb(235, 23, 0);
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.fa-solid,
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 10px;
+}
+
+.section2icon {
+  color: #eb1700;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.padding100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.col {
+  text-align: center;
+}
+
+.section3h1 {
+  font-size: 40px;
+  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: rgb(25, 25, 25);
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.section3p {
+  font-size: 18px;
+  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0ch;
+  text-transform: none;
+  color: rgb(25, 25, 25);
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+button.getapp {
+  background-color: rgb(235, 23, 0);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+button.getapp:hover {
+  background-color: #ac1a09;
+  cursor: pointer;
+}
+
+.mine {
+  width: 35%;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.flavor {
+  width: 60%;
+  padding-left: 70px;
+}
+
+.spot {
+  width: 40%;
+}
+.dine {
+  width: 65%;
+}
+
+div.color {
+  background: rgb(255, 240, 237);
+  margin-top: -150px;
+}
+
+footer {
+  background-color: rgb(25, 25, 25);
+  padding-top: 50px;
+}
+table {
+  margin-left: -300px;
+}
+
+tr,
+td {
+  padding-right: 50px;
+}
+
+td.th {
+  font-size: 16px;
+  line-height: 35px;
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+}
+
+td.td {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+td.footerlinks a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+td.footerlinks a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.imgdiv {
+  border: 2px solid rgb(23, 14, 14);
+  border-radius: 5px 25px;
+  display: flex;
+  flex-direction: column;
+  border-width: 7px;
+}
+
+.footernav a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  font-size: 12px;
+  line-height: 20px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.footernavcontainer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerdivs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.footericons i {
+  font-size: 14px;
+  color: rgb(197, 197, 197);
+  padding-right: 20px;
+}
+
+.footericons {
+  padding-right: 150px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 120px;
+}
+
+.footerp {
+  font-size: 16px;
+  line-height: 35px;
+  color: white;
+  text-align: left;
+  padding-bottom: 0px;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.footerlinks li a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+ul.footerlinks li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.colflex {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colpaddingg {
+  padding-right: 100px;
+}
+
+.secondsection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+div.footerlinks a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+div.footerlinks a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.colflexnone {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.colpadding {
+  padding-right: 100px;
+}
+
+.rowflexnone {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rowflex {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin: auto;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin: auto;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
