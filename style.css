@@ -17,7 +17,7 @@ nav {
 
 header {
   width: 100%;
-  background-image: url(/images/headerimage.jpg);
+  background-image: url(./images/headerimage.jpg);
   background-size: cover;
   padding-bottom: 160px;
 }
