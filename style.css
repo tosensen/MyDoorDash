@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "TT Norms Regular", "Montserrat";
+  
 }
 
 body {
@@ -141,7 +142,7 @@ input.inputaddress::placeholder {
   float: left;
 }
 
-h2.section2h2 {
+h2.section1h2 {
   font-size: 32px;
   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -158,7 +159,7 @@ h2.section2h2 {
   font-variant-ligatures: no-common-ligatures;
 }
 
-.section2p1 {
+.section1p1 {
   font-size: 18px;
   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -175,7 +176,7 @@ h2.section2h2 {
   font-variant-ligatures: no-common-ligatures;
 }
 
-.section2p2 {
+.section1p2 {
   font-size: 18px;
   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -210,7 +211,7 @@ h2.section2h2 {
   align-items: center;
 }
 
-.padding100 {
+.section1 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -219,7 +220,7 @@ h2.section2h2 {
   text-align: center;
 }
 
-.section3h1 {
+.section2h1 {
   font-size: 40px;
   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -235,7 +236,7 @@ h2.section2h2 {
   font-variant-ligatures: no-common-ligatures;
 }
 
-.section3p {
+.section2p {
   font-size: 18px;
   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -273,15 +274,17 @@ button.getapp:hover {
 }
 
 .flavor {
-  width: 60%;
+  width: 55%;
   padding-left: 70px;
 }
 
 .spot {
   width: 40%;
 }
+
 .dine {
   width: 65%;
+
 }
 
 div.color {
@@ -294,7 +297,7 @@ footer {
   padding-top: 50px;
 }
 table {
-  margin-left: -300px;
+  margin-left: -400px;
 }
 
 tr,
@@ -333,7 +336,7 @@ td.footerlinks a:hover {
   text-decoration: underline;
 }
 
-.imgdiv {
+.apps {
   border: 2px solid rgb(23, 14, 14);
   border-radius: 5px 25px;
   display: flex;
@@ -354,7 +357,7 @@ td.footerlinks a:hover {
 .footernavcontainer {
   padding-top: 20px;
   padding-bottom: 30px;
-  padding-left: 165px;
+  padding-left: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -364,6 +367,8 @@ td.footerlinks a:hover {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
+  padding-left: 2px;
+  
 }
 
 .footericons i {
@@ -380,10 +385,10 @@ td.footerlinks a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 120px;
+  padding-left: 50px;
 }
 
-.footerp {
+.myfooter {
   font-size: 16px;
   line-height: 35px;
   color: white;
@@ -404,6 +409,8 @@ ul.footerlinks li a {
   line-height: 20px;
   padding-top: 10px;
   text-align: left;
+  padding-left: 2px;
+
 }
 
 ul.footerlinks li a:hover {
