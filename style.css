@@ -144,9 +144,7 @@ input.inputaddress::placeholder {
 
 h2.section1h2 {
   font-size: 32px;
-  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "TT Norms Regular", "Montserrat";
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -0.04ch;
@@ -161,9 +159,7 @@ h2.section1h2 {
 
 .section1p1 {
   font-size: 18px;
-  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "TT Norms Regular", "Montserrat";
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0ch;
@@ -178,9 +174,7 @@ h2.section1h2 {
 
 .section1p2 {
   font-size: 18px;
-  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "TT Norms Regular", "Montserrat";
   font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.04ch;
@@ -222,9 +216,7 @@ h2.section1h2 {
 
 .section2h1 {
   font-size: 40px;
-  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family:"TT Norms Regular", "Montserrat";
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -0.04ch;
@@ -238,9 +230,7 @@ h2.section1h2 {
 
 .section2p {
   font-size: 18px;
-  font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "TT Norms Regular", "Montserrat";
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0ch;
